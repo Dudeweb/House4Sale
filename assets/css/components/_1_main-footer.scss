@@ -1,0 +1,24 @@
+/* -------------------------------- 
+
+File#: _1_main-footer
+Title: Main Footer
+Descr: Main footer template
+Usage: codyhouse.co/license
+
+-------------------------------- */
+
+.main-footer {
+  position: relative;
+  z-index: 1;
+}
+
+.main-footer__social {
+  text-decoration: none;
+  display: inline-block;
+  color: var(--color-contrast-medium); // icon color
+  transition: .2s;
+
+  &:hover {
+    color: var(--color-contrast-high);
+  }
+}
